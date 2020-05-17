@@ -1,0 +1,8 @@
+node{
+    stage("clone"){
+        git("https://github.com/MeitarEitan/Devops0803.git")
+    }
+    stage("show"){
+        bat "dir"
+    }
+}
